@@ -1,0 +1,79 @@
+/**
+ * RB-EDS v1.1 — Enterprise Theme Layer
+ * Phase 1: Scoping anchor and token inheritance only. No visual output.
+ *
+ * Load order: 2 of 4
+ * All rules scoped to: body.enterprise-redesign
+ */
+
+/* --------------------------------------------------------------------------
+   SCOPE ANCHOR
+   Binds enterprise token scope to the redesign body class.
+   No visual properties are set in Phase 1.
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign {
+
+  /* Re-expose tokens on scope root for future component rules */
+  --enterprise-scope: active;
+
+}
+
+
+/* --------------------------------------------------------------------------
+   BASE RESET RULES
+   Phase 1: Placeholder only. Resets will be applied in Phase 2+.
+   Intentionally empty to preserve existing Vaximo/Elementor appearance.
+   -------------------------------------------------------------------------- */
+
+/*
+body.enterprise-redesign {
+  box-sizing: border-box;
+}
+
+body.enterprise-redesign *,
+body.enterprise-redesign *::before,
+body.enterprise-redesign *::after {
+  box-sizing: inherit;
+}
+*/
+
+
+/* --------------------------------------------------------------------------
+   TYPOGRAPHY BASE
+   Phase 1: Placeholder only. No font-family, size, or color overrides.
+   -------------------------------------------------------------------------- */
+
+/* Phase 2: body.enterprise-redesign { font-family: var(--enterprise-font-body); } */
+
+
+/* --------------------------------------------------------------------------
+   LINK BASE
+   Phase 1: Placeholder only.
+   -------------------------------------------------------------------------- */
+
+/* Phase 2: body.enterprise-redesign a { color: var(--enterprise-text-link); } */
+
+
+/* --------------------------------------------------------------------------
+   GRADIENT NEUTRALIZATION
+   Phase 1: Placeholder only. Solid button migration deferred to Phase 2.
+   -------------------------------------------------------------------------- */
+
+/* Phase 2: Override Redux/Vaximo gradient fills with solid primary color. */
+
+
+/* --------------------------------------------------------------------------
+   ACCESSIBILITY — REDUCED MOTION
+   Phase 1: Placeholder only.
+   -------------------------------------------------------------------------- */
+
+/*
+@media (prefers-reduced-motion: reduce) {
+  body.enterprise-redesign * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+*/

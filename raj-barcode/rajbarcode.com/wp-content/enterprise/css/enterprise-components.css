@@ -1,0 +1,124 @@
+/**
+ * RB-EDS v1.1 — Enterprise Components Layer
+ * Phase 1: Empty component placeholders only. No visual output.
+ *
+ * Load order: 3 of 4
+ * All future rules scoped to: body.enterprise-redesign
+ */
+
+
+/* ==========================================================================
+   COMPONENT PLACEHOLDERS — PHASE 2+
+   Each block is reserved for RB-EDS component styling.
+   Do not add rules until the corresponding phase is approved.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   HEADER
+   Target: .ekit-template-content-header, .elementor-3436, .she-header-yes
+   Token: --enterprise-header-height-desktop (76px)
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .ekit-template-content-header { } */
+
+
+/* --------------------------------------------------------------------------
+   NAVIGATION
+   Target: .ekit-menu-nav-link, .elementskit-navbar-nav, .elementskit-megamenu-panel
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .ekit-menu-nav-link { } */
+
+
+/* --------------------------------------------------------------------------
+   HERO
+   Target: .elementor-15114 .elementor-element-71cd0002
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .elementor-element-71cd0002 { } */
+
+
+/* --------------------------------------------------------------------------
+   BUTTONS
+   Target: .default-btn, .elementor-button, .read-more
+   Rule: Solid fills only — no gradients
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .default-btn { } */
+
+
+/* --------------------------------------------------------------------------
+   CARDS
+   Target: .single-solutions, solution grid columns, .bdt-ep-static-carousel-item
+   Phase 3+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .single-solutions { } */
+
+
+/* --------------------------------------------------------------------------
+   FORMS / INPUTS / DROPDOWNS
+   Target: .forminator-ui, .forminator-input, .forminator-textarea
+   Phase 5+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .forminator-ui .forminator-input { } */
+
+
+/* --------------------------------------------------------------------------
+   TABLES
+   Target: .wp-block-table, .elementor-widget-table (inner pages)
+   Phase 6+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign table { } */
+
+
+/* --------------------------------------------------------------------------
+   FOOTER
+   Target: .ekit-template-content-footer, .elementor-9053
+   Phase 5+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .ekit-template-content-footer { } */
+
+
+/* --------------------------------------------------------------------------
+   HOMEPAGE SECTIONS
+   Target: .elementor-15114 section placeholders
+   Phase 3+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .elementor-15114 { } */
+
+
+/* --------------------------------------------------------------------------
+   CAROUSELS / SLIDERS
+   Target: .elementor-image-carousel, .bdt-static-carousel, .swiper
+   Phase 4+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .elementor-image-carousel-wrapper { } */
+
+
+/* --------------------------------------------------------------------------
+   COUNTERS / STATS
+   Target: .banner-counter, .elementor-counter
+   Phase 3+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .elementor-counter { } */
+
+
+/* --------------------------------------------------------------------------
+   MODALS
+   Target: .exad-modal, .exad-modal-item
+   Phase 5+
+   -------------------------------------------------------------------------- */
+
+/* body.enterprise-redesign .exad-modal { } */

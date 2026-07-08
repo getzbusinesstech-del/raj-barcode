@@ -1,0 +1,248 @@
+/**
+ * RB-EDS v1.1 — Enterprise Design Tokens
+ * Phase 1: Token definitions only. No visual output.
+ *
+ * Load order: 1 of 4
+ * Scope anchor: body.enterprise-redesign (applied in later files)
+ */
+
+:root {
+
+  /* ==========================================================================
+     META
+     ========================================================================== */
+
+  --enterprise-version: "1.1.0";
+  --enterprise-phase: "1";
+
+
+  /* ==========================================================================
+     1. PRIMARY COLORS
+     ========================================================================== */
+
+  --enterprise-color-primary: #BF3B3B;
+  --enterprise-color-primary-hover: #A83232;
+  --enterprise-color-primary-active: #962E2E;
+  --enterprise-color-primary-subtle: #F6E8E8;
+  --enterprise-color-primary-muted: rgba(191, 59, 59, 0.08);
+
+
+  /* ==========================================================================
+     2. SECONDARY COLORS
+     ========================================================================== */
+
+  --enterprise-color-secondary: #0E0129;
+  --enterprise-color-secondary-hover: #08001B;
+  --enterprise-color-accent-pink: #D80650;
+  --enterprise-color-accent-pink-hover: #C00548;
+  --enterprise-color-info: #0066CC;
+  --enterprise-color-success: #1B7F4B;
+  --enterprise-color-warning: #C47A00;
+  --enterprise-color-error: #C53030;
+
+
+  /* ==========================================================================
+     3. SURFACE COLORS
+     ========================================================================== */
+
+  --enterprise-surface-page: #FFFFFF;
+  --enterprise-surface-subtle: #F7F8FA;
+  --enterprise-surface-muted: #ECECEC;
+  --enterprise-surface-elevated: #FFFFFF;
+  --enterprise-surface-dark: #0E0129;
+  --enterprise-surface-dark-overlay: rgba(8, 0, 27, 0.80);
+  --enterprise-surface-input: #F2F9FC;
+  --enterprise-surface-border: #E0E0E0;
+  --enterprise-surface-border-strong: #C8CCD4;
+
+
+  /* ==========================================================================
+     TEXT COLORS
+     ========================================================================== */
+
+  --enterprise-text-primary: #212121;
+  --enterprise-text-secondary: #5A6472;
+  --enterprise-text-tertiary: #8A94A6;
+  --enterprise-text-inverse: #FFFFFF;
+  --enterprise-text-link: #BF3B3B;
+  --enterprise-text-link-hover: #A83232;
+
+
+  /* ==========================================================================
+     4. TYPOGRAPHY — FAMILIES
+     ========================================================================== */
+
+  --enterprise-font-display: "Barlow Condensed", sans-serif;
+  --enterprise-font-body: "Rubik", sans-serif;
+
+
+  /* ==========================================================================
+     5. TYPOGRAPHY — HEADING SCALE (desktop base)
+     ========================================================================== */
+
+  --enterprise-font-size-h1: 3.5rem;
+  --enterprise-font-size-h2: 2.5rem;
+  --enterprise-font-size-h3: 2rem;
+  --enterprise-font-size-h4: 1.5rem;
+  --enterprise-font-size-h5: 1.125rem;
+  --enterprise-font-size-h6: 0.875rem;
+
+  --enterprise-font-weight-h1: 700;
+  --enterprise-font-weight-h2: 700;
+  --enterprise-font-weight-h3: 600;
+  --enterprise-font-weight-h4: 600;
+  --enterprise-font-weight-h5: 600;
+  --enterprise-font-weight-h6: 600;
+
+  --enterprise-line-height-h1: 1.15;
+  --enterprise-line-height-h2: 1.20;
+  --enterprise-line-height-h3: 1.25;
+  --enterprise-line-height-h4: 1.30;
+  --enterprise-line-height-h5: 1.40;
+  --enterprise-line-height-h6: 1.40;
+
+  --enterprise-letter-spacing-h1: 0.02em;
+  --enterprise-letter-spacing-h2: 0.01em;
+  --enterprise-letter-spacing-h6: 0.04em;
+
+
+  /* ==========================================================================
+     6. TYPOGRAPHY — BODY SCALE
+     ========================================================================== */
+
+  --enterprise-font-size-body-lg: 1.125rem;
+  --enterprise-font-size-body: 1rem;
+  --enterprise-font-size-body-sm: 0.875rem;
+  --enterprise-font-size-label: 0.8125rem;
+  --enterprise-font-size-overline: 0.75rem;
+  --enterprise-font-size-stat: 1.75rem;
+
+  --enterprise-font-weight-body: 400;
+  --enterprise-font-weight-label: 500;
+  --enterprise-font-weight-stat: 700;
+
+  --enterprise-line-height-body-lg: 1.60;
+  --enterprise-line-height-body: 1.60;
+  --enterprise-line-height-body-sm: 1.55;
+  --enterprise-line-height-label: 1.40;
+  --enterprise-line-height-overline: 1.30;
+  --enterprise-line-height-stat: 1.20;
+
+
+  /* ==========================================================================
+     7. SPACING — 8px BASE GRID
+     ========================================================================== */
+
+  --enterprise-space-1: 0.25rem;
+  --enterprise-space-2: 0.5rem;
+  --enterprise-space-3: 0.75rem;
+  --enterprise-space-4: 1rem;
+  --enterprise-space-5: 1.25rem;
+  --enterprise-space-6: 1.5rem;
+  --enterprise-space-8: 2rem;
+  --enterprise-space-10: 2.5rem;
+  --enterprise-space-12: 3rem;
+  --enterprise-space-16: 4rem;
+  --enterprise-space-20: 5rem;
+  --enterprise-space-24: 6rem;
+
+
+  /* ==========================================================================
+     8. SECTION SPACING
+     ========================================================================== */
+
+  --enterprise-section-xs: 2rem;
+  --enterprise-section-sm: 3rem;
+  --enterprise-section-md: 4rem;
+  --enterprise-section-lg: 5rem;
+  --enterprise-section-xl: 6rem;
+
+
+  /* ==========================================================================
+     9. BORDER RADIUS (approved scale)
+     ========================================================================== */
+
+  --enterprise-radius-sm: 6px;
+  --enterprise-radius-md: 8px;
+  --enterprise-radius-lg: 12px;
+  --enterprise-radius-xl: 16px;
+  --enterprise-radius-full: 9999px;
+
+
+  /* ==========================================================================
+     10. SHADOWS / ELEVATION
+     ========================================================================== */
+
+  --enterprise-shadow-none: none;
+  --enterprise-shadow-sm: 0 1px 2px rgba(14, 1, 41, 0.06);
+  --enterprise-shadow-md: 0 4px 12px rgba(14, 1, 41, 0.08);
+  --enterprise-shadow-lg: 0 8px 24px rgba(14, 1, 41, 0.10);
+  --enterprise-shadow-xl: 0 16px 40px rgba(14, 1, 41, 0.12);
+  --enterprise-shadow-focus: 0 0 0 3px rgba(191, 59, 59, 0.24);
+
+
+  /* ==========================================================================
+     11. TRANSITIONS (approved: 200ms standard)
+     ========================================================================== */
+
+  --enterprise-transition-duration: 200ms;
+  --enterprise-transition-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --enterprise-transition-default: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+  /* ==========================================================================
+     12. LAYOUT — CONTAINER WIDTHS
+     ========================================================================== */
+
+  --enterprise-container-sm: 640px;
+  --enterprise-container-md: 960px;
+  --enterprise-container-lg: 1140px;
+  --enterprise-container-xl: 1280px;
+  --enterprise-container-2xl: 1350px;
+  --enterprise-container-header: 1450px;
+  --enterprise-container-footer: 1300px;
+
+
+  /* ==========================================================================
+     13. LAYOUT — HEADER HEIGHTS (approved)
+     ========================================================================== */
+
+  --enterprise-header-height-desktop: 76px;
+  --enterprise-header-height-tablet: 64px;
+  --enterprise-header-height-mobile: 56px;
+
+
+  /* ==========================================================================
+     14. ICON SIZING
+     ========================================================================== */
+
+  --enterprise-icon-xs: 16px;
+  --enterprise-icon-sm: 20px;
+  --enterprise-icon-md: 24px;
+  --enterprise-icon-lg: 32px;
+  --enterprise-icon-xl: 48px;
+  --enterprise-icon-social: 36px;
+
+
+  /* ==========================================================================
+     15. BREAKPOINTS (reference values — use in media queries)
+     ========================================================================== */
+
+  --enterprise-bp-mobile: 767px;
+  --enterprise-bp-tablet: 1024px;
+  --enterprise-bp-tablet-xl: 1200px;
+  --enterprise-bp-laptop: 1366px;
+
+
+  /* ==========================================================================
+     16. Z-INDEX SCALE
+     ========================================================================== */
+
+  --enterprise-z-base: 1;
+  --enterprise-z-dropdown: 100;
+  --enterprise-z-sticky: 200;
+  --enterprise-z-header: 300;
+  --enterprise-z-overlay: 400;
+  --enterprise-z-modal: 500;
+
+}

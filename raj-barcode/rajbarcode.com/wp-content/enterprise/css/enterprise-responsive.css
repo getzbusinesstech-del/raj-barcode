@@ -1,0 +1,112 @@
+/**
+ * RB-EDS v1.1 — Enterprise Responsive Layer
+ * Phase 1: Breakpoint token references and placeholder blocks only. No visual output.
+ *
+ * Load order: 4 of 4 (must load last)
+ * All future rules scoped to: body.enterprise-redesign
+ */
+
+
+/* ==========================================================================
+   RESPONSIVE SPACING MULTIPLIERS (reference tokens)
+   ========================================================================== */
+
+/*
+  Desktop  (> 1366px): 1.0× section spacing
+  Laptop   (≤ 1366px): 0.9×
+  Tablet XL(≤ 1200px): 0.85×
+  Tablet   (≤ 1024px): 0.75×
+  Mobile   (≤ 767px):  0.625×
+*/
+
+
+/* ==========================================================================
+   DUPLICATE SECTION PAIRING — PHASE 3+
+   Desktop sections have mobile counterparts via elementor-hidden-* classes.
+   Both variants must be styled together in future phases.
+   ========================================================================== */
+
+/*
+  Industries:  #68ac739f (desktop) ↔ #792fdb1d (mobile)
+  Clients:     #108374e8 (desktop) ↔ #2c4c0d7  (mobile)
+  Partnerships:#6b3d1eae (desktop) ↔ #56051a29 (mobile)
+  Header:      #7163b2b  (desktop) ↔ #af487ac  (mobile)
+*/
+
+
+/* --------------------------------------------------------------------------
+   LAPTOP — max-width: 1366px
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/*
+@media (max-width: 1366px) {
+  body.enterprise-redesign { }
+}
+*/
+
+
+/* --------------------------------------------------------------------------
+   TABLET EXTRA — max-width: 1200px
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/*
+@media (max-width: 1200px) {
+  body.enterprise-redesign { }
+}
+*/
+
+
+/* --------------------------------------------------------------------------
+   TABLET — max-width: 1024px
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/*
+@media (max-width: 1024px) {
+  body.enterprise-redesign { }
+}
+*/
+
+
+/* --------------------------------------------------------------------------
+   MOBILE — max-width: 767px
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/*
+@media (max-width: 767px) {
+  body.enterprise-redesign { }
+}
+*/
+
+
+/* --------------------------------------------------------------------------
+   RESPONSIVE TYPOGRAPHY OVERRIDES
+   Phase 2+
+   -------------------------------------------------------------------------- */
+
+/*
+@media (max-width: 767px) {
+  body.enterprise-redesign {
+    --enterprise-font-size-h1: 2rem;
+    --enterprise-font-size-h2: 1.75rem;
+  }
+}
+*/
+
+
+/* --------------------------------------------------------------------------
+   RESPONSIVE SECTION SPACING OVERRIDES
+   Phase 3+
+   -------------------------------------------------------------------------- */
+
+/*
+@media (max-width: 767px) {
+  body.enterprise-redesign {
+    --enterprise-section-md: 2.5rem;
+    --enterprise-section-lg: 3rem;
+  }
+}
+*/
