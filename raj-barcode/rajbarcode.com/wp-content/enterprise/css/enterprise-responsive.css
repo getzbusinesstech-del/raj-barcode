@@ -198,3 +198,82 @@
     font-size: var(--enterprise-font-size-body-lg);
   }
 }
+
+
+/* =====================================================
+   PHASE 6B — ENTERPRISE HEADER (RESPONSIVE)
+   ===================================================== */
+
+/* --------------------------------------------------------------------------
+   TABLET — max-width: 1024px
+   Only refine: spacing, typography adjustment, menu padding
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+  body.enterprise-redesign .elementskit-nav-logo {
+    padding: var(--enterprise-space-1) 0;
+  }
+
+  body.enterprise-redesign .elementskit-navbar-nav>li>a {
+    padding: var(--enterprise-space-1) var(--enterprise-space-2);
+    font-size: var(--enterprise-font-size-body-sm);
+  }
+
+  body.enterprise-redesign .elementskit-submenu-panel {
+    padding: var(--enterprise-space-2);
+  }
+
+  body.enterprise-redesign .elementskit-submenu-panel>li>a {
+    padding: var(--enterprise-space-1) var(--enterprise-space-2);
+    font-size: var(--enterprise-font-size-body-sm);
+  }
+
+  body.enterprise-redesign .elementskit-nav-identity-panel {
+    padding: var(--enterprise-space-2);
+  }
+
+  body.enterprise-redesign .ekit-template-content-header .default-btn {
+    padding: var(--enterprise-space-1) var(--enterprise-space-3);
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   MOBILE — max-width: 767px
+   Only refine: spacing, typography adjustment, menu padding
+   Do NOT touch hamburger JavaScript behavior
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+  body.enterprise-redesign .elementskit-nav-logo {
+    padding: var(--enterprise-space-1) 0;
+  }
+
+  body.enterprise-redesign .elementskit-nav-identity-panel {
+    padding: var(--enterprise-space-2);
+  }
+
+  body.enterprise-redesign .elementskit-menu-container {
+    border-radius: var(--enterprise-radius-sm);
+  }
+
+  body.enterprise-redesign .elementskit-navbar-nav>li>a {
+    padding: var(--enterprise-space-2) var(--enterprise-space-3);
+    font-size: var(--enterprise-font-size-body);
+  }
+
+  body.enterprise-redesign .elementskit-submenu-panel {
+    padding: var(--enterprise-space-2);
+    border-radius: var(--enterprise-radius-sm);
+  }
+
+  body.enterprise-redesign .elementskit-submenu-panel>li>a {
+    padding: var(--enterprise-space-2) var(--enterprise-space-3);
+    font-size: var(--enterprise-font-size-body);
+  }
+
+  body.enterprise-redesign .ekit-template-content-header .default-btn {
+    padding: var(--enterprise-space-2) var(--enterprise-space-3);
+    font-size: var(--enterprise-font-size-body-sm);
+  }
+}

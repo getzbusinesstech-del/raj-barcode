@@ -227,7 +227,6 @@ body.enterprise-redesign .single-seku-features-card:hover {
   transform: translateY(-2px);
 }
 
-
 /* --------------------------------------------------------------------------
    ELEMENTOR ICON BOX CARDS (Service/Industry)
    Target: .elementor-icon-box-wrapper
@@ -273,4 +272,155 @@ body.enterprise-redesign .elementor-icon-box-wrapper:hover .elementor-icon {
 
 body.enterprise-redesign .elementor-icon-box-content {
   margin-top: var(--enterprise-space-3);
+}
+
+
+/* =====================================================
+   PHASE 6B — ENTERPRISE HEADER
+   ===================================================== */
+
+/* --------------------------------------------------------------------------
+   HEADER CONTAINER
+   Target: .ekit-template-content-header
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .ekit-template-content-header {
+  transition: box-shadow var(--enterprise-transition-default), background-color var(--enterprise-transition-default);
+}
+
+
+/* --------------------------------------------------------------------------
+   STICKY HEADER
+   Target: .she-header, .elementor-sticky--effects
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .she-header.elementor-sticky,
+body.enterprise-redesign .she-header.elementor-sticky--effects {
+  box-shadow: var(--enterprise-shadow-md);
+  transition: box-shadow var(--enterprise-transition-default), background-color var(--enterprise-transition-default), padding var(--enterprise-transition-default);
+}
+
+
+/* --------------------------------------------------------------------------
+   LOGO AREA
+   Target: .elementskit-nav-logo
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .elementskit-nav-logo {
+  padding: var(--enterprise-space-2) 0;
+}
+
+body.enterprise-redesign .elementskit-nav-logo>img {
+  transition: transform var(--enterprise-transition-default);
+}
+
+
+/* --------------------------------------------------------------------------
+   NAVIGATION MENU
+   Target: .elementskit-navbar-nav
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .elementskit-navbar-nav>li {
+  margin: 0 var(--enterprise-space-1);
+}
+
+body.enterprise-redesign .elementskit-navbar-nav>li>a {
+  font-family: var(--enterprise-font-body);
+  font-weight: 500;
+  padding: var(--enterprise-space-2) var(--enterprise-space-3);
+  transition: color var(--enterprise-transition-default), background-color var(--enterprise-transition-default);
+}
+
+body.enterprise-redesign .elementskit-navbar-nav>li>a:hover,
+body.enterprise-redesign .elementskit-navbar-nav>li>a:focus {
+  color: var(--enterprise-color-primary);
+}
+
+body.enterprise-redesign .elementskit-navbar-nav>li.current-menu-item>a,
+body.enterprise-redesign .elementskit-navbar-nav>li.current-menu-ancestor>a {
+  color: var(--enterprise-color-primary);
+  font-weight: 600;
+}
+
+
+/* --------------------------------------------------------------------------
+   DROPDOWN PANEL
+   Target: .elementskit-submenu-panel
+   Only refine: spacing, radius, shadow
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .elementskit-submenu-panel {
+  border-radius: var(--enterprise-radius-md);
+  box-shadow: var(--enterprise-shadow-lg);
+  padding: var(--enterprise-space-3);
+  transition: box-shadow var(--enterprise-transition-default);
+}
+
+body.enterprise-redesign .elementskit-submenu-panel>li>a {
+  padding: var(--enterprise-space-2) var(--enterprise-space-3);
+  font-family: var(--enterprise-font-body);
+  font-size: var(--enterprise-font-size-body);
+  transition: color var(--enterprise-transition-default), background-color var(--enterprise-transition-default);
+}
+
+body.enterprise-redesign .elementskit-submenu-panel>li>a:hover {
+  color: var(--enterprise-color-primary);
+  background-color: var(--enterprise-surface-hover);
+}
+
+body.enterprise-redesign .elementskit-submenu-indicator {
+  transition: transform var(--enterprise-transition-default);
+}
+
+
+/* --------------------------------------------------------------------------
+   MOBILE MENU
+   Target: .elementskit-menu-hamburger, .elementskit-menu-close, .elementskit-nav-identity-panel
+   Only refine: spacing, visual properties
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .elementskit-menu-hamburger {
+  padding: var(--enterprise-space-2);
+  border-radius: var(--enterprise-radius-sm);
+  transition: background-color var(--enterprise-transition-default), box-shadow var(--enterprise-transition-default);
+}
+
+body.enterprise-redesign .elementskit-menu-hamburger:hover {
+  background-color: var(--enterprise-surface-hover);
+}
+
+body.enterprise-redesign .elementskit-menu-close {
+  padding: var(--enterprise-space-2);
+  border-radius: var(--enterprise-radius-sm);
+  transition: background-color var(--enterprise-transition-default), box-shadow var(--enterprise-transition-default);
+}
+
+body.enterprise-redesign .elementskit-menu-close:hover {
+  background-color: var(--enterprise-surface-hover);
+}
+
+body.enterprise-redesign .elementskit-nav-identity-panel {
+  padding: var(--enterprise-space-3);
+}
+
+body.enterprise-redesign .elementskit-menu-container {
+  border-radius: var(--enterprise-radius-md);
+  box-shadow: var(--enterprise-shadow-xl);
+}
+
+
+/* --------------------------------------------------------------------------
+   HEADER BUTTON
+   Target: .default-btn scoped to header context
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .ekit-template-content-header .default-btn {
+  padding: var(--enterprise-space-2) var(--enterprise-space-4);
+  border-radius: var(--enterprise-radius-md);
+  transition: box-shadow var(--enterprise-transition-default), transform var(--enterprise-transition-default);
+}
+
+body.enterprise-redesign .ekit-template-content-header .default-btn:hover {
+  box-shadow: var(--enterprise-shadow-sm);
+  transform: translateY(-1px);
 }
