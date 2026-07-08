@@ -122,3 +122,155 @@
    -------------------------------------------------------------------------- */
 
 /* body.enterprise-redesign .exad-modal { } */
+
+
+/* =====================================================
+   PHASE 6A — ENTERPRISE CARD SYSTEM
+   ===================================================== */
+
+/* --------------------------------------------------------------------------
+   SOLUTION CARDS
+   Target: .solution-technology-card
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .solution-technology-card {
+  border-radius: var(--enterprise-radius-lg);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+body.enterprise-redesign .solution-technology-card:hover {
+  box-shadow: var(--enterprise-shadow-lg);
+  transform: translateY(-2px);
+}
+
+body.enterprise-redesign .solution-technology-card .info-wrap {
+  padding: var(--enterprise-space-5);
+}
+
+body.enterprise-redesign .solution-technology-card .info-wrap .title {
+  font-family: var(--enterprise-font-display);
+  font-size: var(--enterprise-font-size-h4);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--enterprise-text-primary);
+  margin-bottom: var(--enterprise-space-3);
+}
+
+body.enterprise-redesign .solution-technology-card .info-wrap .description {
+  font-family: var(--enterprise-font-body);
+  font-size: var(--enterprise-font-size-body);
+  line-height: 1.6;
+  color: var(--enterprise-text-secondary);
+}
+
+body.enterprise-redesign .solution-technology-card .img-wrap img {
+  border-radius: var(--enterprise-radius-lg) var(--enterprise-radius-lg) 0 0;
+  object-fit: cover;
+}
+
+body.enterprise-redesign .solution-technology-card::after {
+  border-radius: 0 0 var(--enterprise-radius-lg) var(--enterprise-radius-lg);
+}
+
+
+/* --------------------------------------------------------------------------
+   PRODUCT CARDS
+   Target: .single-products
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .single-products {
+  border-radius: var(--enterprise-radius-md);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+body.enterprise-redesign .single-products:hover {
+  box-shadow: var(--enterprise-shadow-md);
+  transform: translateY(-2px);
+}
+
+body.enterprise-redesign .single-products .products-image {
+  border-radius: var(--enterprise-radius-md) var(--enterprise-radius-md) 0 0;
+  overflow: hidden;
+}
+
+body.enterprise-redesign .single-products .products-image img {
+  object-fit: cover;
+}
+
+body.enterprise-redesign .single-products .products-content {
+  padding: var(--enterprise-space-4);
+}
+
+
+/* --------------------------------------------------------------------------
+   SERVICE / FEATURE CARDS
+   Target: .single-solutions, .single-seku-features-card
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .single-solutions {
+  border-radius: var(--enterprise-radius-md);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+body.enterprise-redesign .single-solutions:hover {
+  box-shadow: var(--enterprise-shadow-md);
+  transform: translateY(-2px);
+}
+
+body.enterprise-redesign .single-seku-features-card {
+  border-radius: var(--enterprise-radius-md);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+body.enterprise-redesign .single-seku-features-card:hover {
+  box-shadow: var(--enterprise-shadow-md);
+  transform: translateY(-2px);
+}
+
+
+/* --------------------------------------------------------------------------
+   ELEMENTOR ICON BOX CARDS (Service/Industry)
+   Target: .elementor-icon-box-wrapper
+   -------------------------------------------------------------------------- */
+
+body.enterprise-redesign .elementor-icon-box-wrapper {
+  border-radius: var(--enterprise-radius-md);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  padding: var(--enterprise-space-4);
+}
+
+body.enterprise-redesign .elementor-icon-box-wrapper:hover {
+  box-shadow: var(--enterprise-shadow-md);
+  transform: translateY(-2px);
+}
+
+body.enterprise-redesign .elementor-icon-box-title {
+  font-family: var(--enterprise-font-display);
+  font-size: var(--enterprise-font-size-h5);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--enterprise-text-primary);
+  margin-bottom: var(--enterprise-space-2);
+}
+
+body.enterprise-redesign .elementor-icon-box-title a {
+  color: var(--enterprise-text-primary);
+  transition: color 0.2s ease;
+}
+
+body.enterprise-redesign .elementor-icon-box-title a:hover {
+  color: var(--enterprise-color-primary);
+}
+
+body.enterprise-redesign .elementor-icon {
+  border-radius: var(--enterprise-radius-full);
+  transition: transform 0.3s ease;
+}
+
+body.enterprise-redesign .elementor-icon-box-wrapper:hover .elementor-icon {
+  transform: scale(1.05);
+}
+
+body.enterprise-redesign .elementor-icon-box-content {
+  margin-top: var(--enterprise-space-3);
+}

@@ -110,3 +110,91 @@
   }
 }
 */
+
+
+/* =====================================================
+   PHASE 6A — ENTERPRISE CARD SYSTEM (RESPONSIVE)
+   ===================================================== */
+
+/* --------------------------------------------------------------------------
+   TABLET — max-width: 1024px
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+  body.enterprise-redesign .solution-technology-card .info-wrap {
+    padding: var(--enterprise-space-4);
+  }
+
+  body.enterprise-redesign .solution-technology-card .info-wrap .title {
+    font-size: var(--enterprise-font-size-h5);
+  }
+
+  body.enterprise-redesign .single-products .products-content {
+    padding: var(--enterprise-space-3);
+  }
+
+  body.enterprise-redesign .elementor-icon-box-wrapper {
+    padding: var(--enterprise-space-3);
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   MOBILE — max-width: 767px
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+  body.enterprise-redesign .solution-technology-card {
+    border-radius: var(--enterprise-radius-md);
+  }
+
+  body.enterprise-redesign .solution-technology-card .info-wrap {
+    padding: var(--enterprise-space-3);
+  }
+
+  body.enterprise-redesign .solution-technology-card .info-wrap .title {
+    font-size: var(--enterprise-font-size-body-lg);
+    font-weight: 600;
+  }
+
+  body.enterprise-redesign .solution-technology-card .info-wrap .description {
+    font-size: var(--enterprise-font-size-body-sm);
+  }
+
+  body.enterprise-redesign .solution-technology-card .img-wrap img {
+    border-radius: var(--enterprise-radius-md) var(--enterprise-radius-md) 0 0;
+  }
+
+  body.enterprise-redesign .solution-technology-card::after {
+    border-radius: 0 0 var(--enterprise-radius-md) var(--enterprise-radius-md);
+  }
+
+  body.enterprise-redesign .single-products {
+    border-radius: var(--enterprise-radius-sm);
+  }
+
+  body.enterprise-redesign .single-products .products-image {
+    border-radius: var(--enterprise-radius-sm) var(--enterprise-radius-sm) 0 0;
+  }
+
+  body.enterprise-redesign .single-products .products-content {
+    padding: var(--enterprise-space-3);
+  }
+
+  body.enterprise-redesign .single-solutions {
+    border-radius: var(--enterprise-radius-sm);
+  }
+
+  body.enterprise-redesign .single-seku-features-card {
+    border-radius: var(--enterprise-radius-sm);
+  }
+
+  body.enterprise-redesign .elementor-icon-box-wrapper {
+    padding: var(--enterprise-space-3);
+    border-radius: var(--enterprise-radius-sm);
+  }
+
+  body.enterprise-redesign .elementor-icon-box-title {
+    font-size: var(--enterprise-font-size-body-lg);
+  }
+}
